@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+.header {
+  background-color: #2d1b4e;
+  color: white;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links .btn {
+  background: #ff4081;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero-buttons .btn {
+  margin: 10px;
+  background: #ff4081;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background: white;
+  color: #2d1b4e;
+}
+
+.features {
+  padding: 40px;
+  background: #f9f9f9;
+}
+
+.features h2 {
+  color: #2d1b4e;
+}
+
+.pricing {
+  padding: 40px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.card h3 {
+  color: #2d1b4e;
+}
+
+.card button {
+  background: #ff4081;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  background: #2d1b4e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer .social a {
+  color: #ff4081;
+  margin: 0 10px;
+  text-decoration: none;
+}

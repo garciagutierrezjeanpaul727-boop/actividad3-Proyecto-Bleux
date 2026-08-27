@@ -1,33 +1,80 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/styles/index.css" />
+    <title>Página de Producto</title>
+    <link rel="stylesheet" href="stayles/index.css" />
   </head>
   <body>
-    <header>
-      <img src="../assets/images/logo.png" alt="Logo" class="logo" />
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#services">Services</a></li>
-      </ul>
-      <button class="menu-toggle" aria-label="Toggle menu">
-        <span class="hamburger"></span>
-      </button>
+    <header class="header">
+      <nav class="navbar">
+        <h1 class="logo">Bleux</h1>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#usecase">Use case</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#download" class="btn">Download</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <h2>Product Page</h2>
+        <p>
+          We built this template to help you create modern and beautiful
+          marketing page.
+        </p>
+        <div class="hero-buttons">
+          <a href="#download" class="btn">Download it now</a>
+          <a href="#features" class="btn btn-secondary">Features</a>
+        </div>
+      </div>
     </header>
 
-    <div>
-      <img src="../assets/images/sample-image.png" alt="Sample Image" />
-    </div>
+    <section id="features" class="features">
+      <h2>Fonctionnalités</h2>
+      <h3>Alpha Screenshot</h3>
+      <p>
+        This is a placeholder text. Replace it with your awesome call to action
+        text.
+      </p>
+      <ul>
+        <li>Marketing Page</li>
+        <li>Based on Bootstrap 4</li>
+        <li>Modern and creative</li>
+        <li>Optimized for mobile devices</li>
+      </ul>
+    </section>
 
-    <div>
-      <img src="../assets/images/sample-image.png" alt="Sample Image" />
-    </div>
+    <section id="pricing" class="pricing">
+      <h2>Plans & Pricing</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Lite</h3>
+          <p>$0 Free</p>
+          <button>Subscribe Now</button>
+        </div>
+        <div class="card">
+          <h3>Standard</h3>
+          <p>$24 / month</p>
+          <button>Subscribe Now</button>
+        </div>
+        <div class="card">
+          <h3>Ultimate</h3>
+          <p>$400 / year</p>
+          <button>Subscribe Now</button>
+        </div>
+      </div>
+    </section>
 
-    <div></div>
+    <footer class="footer">
+      <p>© Website made by Mivfx - contact@address.com</p>
+      <div class="social">
+        <a href="#">Twitter</a>
+        <a href="#">Facebook</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Instagram</a>
+      </div>
+    </footer>
   </body>
 </html>
