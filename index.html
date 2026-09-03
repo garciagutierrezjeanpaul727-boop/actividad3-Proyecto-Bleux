@@ -1,33 +1,161 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/styles/index.css" />
+    <title>Página de Producto</title>
+    <link rel="stylesheet" href="stayles/index.css" />
   </head>
   <body>
-    <header>
-      <img src="../assets/images/logo.png" alt="Logo" class="logo" />
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#services">Services</a></li>
-      </ul>
-      <button class="menu-toggle" aria-label="Toggle menu">
-        <span class="hamburger"></span>
-      </button>
+    <header class="enc">
+      <nav class="nav">
+        <div class="envol-lg">
+          <img class="img-lg" src="assets/logo.png" alt="Bleux logo" />
+        </div>
+
+        <ul class="enl-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#usecase">Use case</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#download" class="btn">Download</a></li>
+        </ul>
+      </nav>
     </header>
+    <div class="h">
+      <div class="h-txt">
+        <h1>Product<br />Page</h1>
+        <p>
+          We built this template to help you create modern and beautiful
+          marketing page.
+        </p>
+        <div class="h-btns">
+          <a href="#download" class="btn btn-pri">Download it now</a>
+          <a href="#features" class="btn btn-sec">Features</a>
+        </div>
+      </div>
 
-    <div>
-      <img src="../assets/images/sample-image.png" alt="Sample Image" />
+      <div class="h-img" aria-label="app preview">
+        <img class="img-tel" src="assets/phone.png" alt="Phone app mockup" />
+      </div>
     </div>
 
-    <div>
-      <img src="../assets/images/sample-image.png" alt="Sample Image" />
-    </div>
+    <main>
+      <section id="features" class="func">
+        <div class="tit-sec">Fonctionnalités</div>
 
-    <div></div>
+        <div class="dis-func">
+          <div class="vis-func">
+            <img
+              class="img-port"
+              src="assets/laptop.png"
+              alt="Laptop screenshot"
+            />
+          </div>
+
+          <div class="txt-func">
+            <h2>Alpha Screenshot</h2>
+            <p>
+              This is a placeholder text. Replace it with your awesome call to
+              action text.
+            </p>
+            <ul>
+              <li>Marketing Page</li>
+              <li>Based on Bootstrap 4</li>
+              <li>Modern and creative</li>
+              <li>Optimized for mobile devices</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="pre">
+        <div class="cab-pre">
+          <h2>Plans &amp; Pricing</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non
+            dictum ipsum tincidunt non. Quisque convallis pharetra tempor. Donec
+            id pretium leo. Pellentesque luctus massa non elit viverra
+            pellentesque. Cras vitae neque molestie, blandit ipsum at, interdum
+            tellus. Fusce vitae sem at velit facilisis luctus.
+          </p>
+        </div>
+
+        <div class="tarjs">
+          <article class="tarj tarj-lig">
+            <div class="ico-tarj">
+              <img src="assets/hoja.png" alt="Lite" />
+            </div>
+            <h3>Lite</h3>
+            <div class="lin-pre"><span>$0</span> Free</div>
+            <ul>
+              <li>Full Components</li>
+              <li>Future Updates</li>
+              <li>Documentation</li>
+              <li>Customer Support</li>
+              <li>Cool Option</li>
+            </ul>
+            <p class="txt-tarj">
+              Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+              vestibulum in vulputate at, tempus viverra turpis.
+            </p>
+            <button>Subscribe Now</button>
+          </article>
+
+          <article class="tarj tarj-est">
+            <div class="ico-tarj">
+              <img src="assets/nube.png" alt="Standard" />
+            </div>
+            <h3>Standard</h3>
+            <div class="lin-pre"><span>$24</span> per month</div>
+            <ul>
+              <li>Full Components</li>
+              <li>Future Updates</li>
+              <li>Documentation</li>
+              <li>Customer Support</li>
+              <li>Cool Option</li>
+            </ul>
+            <p class="txt-tarj">
+              Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+              vestibulum in vulputate at, tempus viverra turpis.
+            </p>
+            <button>Subscribe Now</button>
+          </article>
+
+          <article class="tarj tarj-ult">
+            <div class="ico-tarj">
+              <img src="assets/maletin.png" alt="Ultimate" />
+            </div>
+            <h3>Ultimate</h3>
+            <div class="lin-pre"><span>$400</span> per year</div>
+            <ul>
+              <li>Full Components</li>
+              <li>Future Updates</li>
+              <li>Documentation</li>
+              <li>Customer Support</li>
+              <li>Cool Option</li>
+            </ul>
+            <p class="txt-tarj">
+              Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+              vestibulum in vulputate at, tempus viverra turpis.
+            </p>
+            <button>Subscribe Now</button>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pie">
+      <div class="pie-int">
+        <p>© Website made by Mivfx - contact@address.com</p>
+        <div class="red-soc">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Twitter">x</a>
+          <a href="#" aria-label="Instagram">◌</a>
+          <a href="#" aria-label="GitHub">◍</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
